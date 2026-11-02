@@ -1,0 +1,72 @@
+
+# 5 PHYSICS FORMULAS WITH NUMBERS
+# Author: Physics Formulas Project
+
+print("===== PHYSICS FORMULAS CALCULATOR =====\n")
+
+# 1. SPEED
+distance = 100  # metres
+time = 20        # seconds
+
+speed = distance / time
+
+print("1. SPEED")
+print("Formula: Speed = Distance / Time")
+print("Distance:", distance, "m")
+print("Time:", time, "s")
+print("Answer:", speed, "m/s\n")
+
+
+# 2. FORCE
+mass = 10          # kg
+acceleration = 5   # m/s^2
+
+force = mass * acceleration
+
+print("2. FORCE")
+print("Formula: Force = Mass * Acceleration")
+print("Mass:", mass, "kg")
+print("Acceleration:", acceleration, "m/s^2")
+print("Answer:", force, "N\n")
+
+
+# 3. DENSITY
+mass = 20    # kg
+volume = 4   # m^3
+
+density = mass / volume
+
+print("3. DENSITY")
+print("Formula: Density = Mass / Volume")
+print("Mass:", mass, "kg")
+print("Volume:", volume, "m^3")
+print("Answer:", density, "kg/m^3\n")
+
+
+# 4. WORK DONE
+force = 50       # Newtons
+distance = 10    # metres
+
+work = force * distance
+
+print("4. WORK DONE")
+print("Formula: Work = Force * Distance")
+print("Force:", force, "N")
+print("Distance:", distance, "m")
+print("Answer:", work, "J\n")
+
+
+# 5. KINETIC ENERGY
+mass = 4       # kg
+velocity = 5   # m/s
+
+kinetic_energy = 0.5 * mass * velocity**2
+
+print("5. KINETIC ENERGY")
+print("Formula: KE = 1/2 * Mass * Velocity^2")
+print("Mass:", mass, "kg")
+print("Velocity:", velocity, "m/s")
+print("Answer:", kinetic_energy, "J\n")
+
+
+print("===== END OF PHYSICS CALCULATIONS =====")
